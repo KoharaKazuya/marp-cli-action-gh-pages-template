@@ -31,6 +31,8 @@ jobs:
 
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v2
+# to enable html option, modify .marprc.yml and uncomment below
+# to enable pptx generation, uncomment below
 #        with:
 #          config-file: ./.marprc.yml
 #          generate-pptx: true
